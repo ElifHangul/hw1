@@ -19,8 +19,7 @@ class TestSearch(unittest.TestCase):
 
 	def test_searchingNoneFailed(self):
   	 self.assertFalse(search(self.array,2,None))
-	def test_searchingNoneNumberFailed(self):
-         self.assertFalse(search(self.array,None,5))
+	
 
 
 
