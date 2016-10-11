@@ -1,4 +1,5 @@
 def search(array,element1,element2):
+
  count=0
  for e in array:
   if e == element2:
